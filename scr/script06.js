@@ -4,7 +4,7 @@
 // const secondNumber = prompt('давай друге число ');
 
 // function maxNumber(a, b) {
-//   const max = Math.max(firstNumber, secondNumber);
+//   const max = Math.max(a, b);
 //   console.log(max);
 // }
 
