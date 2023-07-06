@@ -3,7 +3,7 @@
 // const firstNumber = prompt('давай перше число ');
 // const secondNumber = prompt('давай друге число ');
 
-// function maxNumber(a, b) {
+// const  maxNumber = (a, b) => {
 //   const max = Math.max(a, b);
 //   console.log(max);
 // }
@@ -13,7 +13,8 @@
 //   Функція:  checkAge !
 
 // const age = prompt('Введіть вік');
-// function checkAge(age) {
+
+// const  checkAge = (age) => {
 //   if (age >= 18) {
 //     console.log(true);
 //   } else {s
@@ -23,18 +24,17 @@
 // checkAge(age);
 
 // Функція: усічення рядка
+// Зманнив конструкцію IF на тернарний оператор
 
 // const str = prompt('Enter your string');
 // const index = prompt('Enter your index number');
 
-// function strings(str, index) {
-//   const lengthStr = str.slice(0, index);
+// const strings = (strng, indexString) => {
 
-//   if (str.length > index) {
-//     console.log(`${lengthStr}...`);
-//   } else {
-//     console.log(str);
-//   }
+//     const lengthStr = strng.slice(0, indexString);
+    
+// (strng.length > indexString)?  console.log(`${lengthStr}...`) :    console.log(strng);
+
 // }
 // strings(str, index);
 
@@ -43,7 +43,7 @@
 // const str = prompt('давай рядоок ').toLocaleLowerCase();
 // const world = prompt('давай слово ').toLocaleLowerCase();
 
-// function checkWord(str, world) {
+// const  checkWord =(str, world) => {
 //   if (str.includes(world)) {
 //     console.log(true);
 //   } else {
@@ -52,4 +52,3 @@
 // }
 // checkWord(str, world);
 
-// Влад є питання, чому в останній функції якщо залишити обидва поля пустими,  то все одно  буде true, це ж пустий рядок начебто
