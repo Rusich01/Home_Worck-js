@@ -8,6 +8,7 @@ const users = ['user1', 'user2', 'user3', 'user4', 'user5', 'user6'];
 //     item.length >= 4 ? console.log(item, true) : console.log(item, false),
 //   ),
 // );
+// Швидке рішення завдяки методу every
 
 // console.log(users.every(item => item.length > 4));
 
