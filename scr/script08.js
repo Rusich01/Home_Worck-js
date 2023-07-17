@@ -17,3 +17,6 @@ const users = ['user1', 'user2', 'user3', 'user4', 'user5', 'user6'];
 
 // Завдання №3
 // console.log(users.map(item => item.toUpperCase(item)));
+
+
+// Пробачте, що з затримкою, небуло вільного часу ) 
